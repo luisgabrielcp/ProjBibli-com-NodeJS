@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Biblioteca Virtual</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo FAETEC.png" alt="Logo FAETEC">
+        <div class="divRestrito">
+            <label for="area-restrita" class="fa-solid fa-user"></label>           
+            <a  href="/login"  class="area-restrita" id="area-restrita">Acesso restrito</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="library-info">
+            <div class="titulo">
+                <img src="/img/logo do isepam branca.png" alt="Logo do ISEPAM">
+                <h2>Biblioteca Cecília Meireles</h2>
+            </div>
+            <div class="botao-acervo">
+                <label for="botao-acervo" class="fa-solid fa-book fa-2x"></label>
+                <button id="botao-acervo">Conheça o acervo</button>
+            </div>
+            
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar livros..." id="name"> 
+            <label for="name" class="fas fa-search"></label>
+        </div>
+    </section>
+
+    <nav>
+        <label for="consultar-tcc" class="fa-regular fa-newspaper fa-3x" id="icone-tcc"></label>
+        <a href="/consulta" id="consultar-tcc">Consultar TCCs</a>
+        <img src="/img/BV.png" alt="ícone bvirtual" class="img-bv">
+        <a href="https://plataforma.bvirtual.com.br/Account/Login?redirectUrl=%2F">Acessar BV Pearson</a>
+        <label for="consultar-livros" class="fa-solid fa-book fa-3x" id="icone-consultar"></label>
+        <a href="/consulta" id="consultar-livros">Consultar Livros</a>
+    </nav>
+
+</body>
+</html>

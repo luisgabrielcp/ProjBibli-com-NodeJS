@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* azul */
+    color: #fff; /* branco */
+    background-image: url("/img/books-6623567_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    background-color: #2980b9; /* azul mais escuro */
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    display: flexbox;
+}
+
+header img{
+    width: 10%;
+    height: 10%;
+    display: block;
+    
+}
+
+.area-restrita{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.area-restrita:hover{
+    color: rgb(4, 0, 255);
+}
+
+
+
+.divRestrito label{
+    position: absolute;
+    top: 22px;
+    right: 145px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px; /* Ajuste para dar espaço suficiente para a nav no final */
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    
+}
+
+.search-container label{
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    
+}
+
+.search-container input{
+    background-color: #1e6fa3;
+    border: none;
+    position: absolute;
+    left: 170px;
+    height: 60px;
+    width: 100%;
+}
+
+.search-container ::placeholder{
+    color: #fff;
+}
+
+.library-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.library-info h2 {
+    font-size: 50px; /* Aumenta o tamanho do texto Biblioteca Cecília Meireles */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo{
+    width: 50%;
+    position: inherit;
+    right: 260px;
+    
+}
+
+.titulo img{
+    width: 6%;
+    height: 6%;
+    position: inherit;
+    top: 105px;
+    right: 330px;
+}
+
+
+.botao-acervo{
+    width: 220px;
+    background-color: #3498db;
+    position: absolute;
+    top: 110px;
+    right: 220px;
+}
+
+.botao-acervo button {
+    background-color: #1e6fa3; /* azul mais escuro */
+    color: #fff;
+    padding: 15px 30px; /* Aumenta o tamanho do botão Conheça o acervo */
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;  
+}
+
+.botao-acervo label{
+    position: inherit;
+    right: 12px;
+    top: 7px;
+}
+
+
+input[type=text] {
+    width: 75%; /* Aumenta o tamanho do campo de pesquisa */
+    padding: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+input[type=placeholder] {
+    color: #fff;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #2980b9; /* azul mais escuro */
+    padding-top: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 110px 70px 110px;  
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.img-bv{
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    left: 610px;
+    bottom: 50px;
+}
+
+#icone-consultar{
+    position: absolute;
+    bottom: 60px;
+    right: 495px;
+}
+
+#icone-tcc{
+    position: absolute;
+    bottom: 60px;
+    left: 250px;
+}
